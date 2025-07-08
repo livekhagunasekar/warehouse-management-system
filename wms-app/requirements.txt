@@ -1,0 +1,11 @@
+Django>=5.2
+djangorestframework
+djangorestframework-simplejwt
+gunicorn
+psycopg2-binary
+python-decouple
+django-cors-headers
+Pillow
+python-barcode
+reportlab
+pandas
