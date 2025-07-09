@@ -90,17 +90,26 @@ This command will:
 ### 5. 🌐 Access the Application
 - **Frontend UI**: [http://13.222.50.158](http://13.222.50.158)
 - **Django Admin Panel**: [http://13.222.50.158/admin/](http://13.222.50.158/admin/)
+---------------------------------------------------------------------------------------------------------------------------
 
- ### 6. 🔐 Default Admin Login Credentials
- Use the following credentials to log in:
-   - Username: superadmin
-   - Password: superadmin123
+### 🌐 Live Demo Access
+You can view the deployed application here:
 
-### 7. 🙋‍♀️ Author / Acknowledgments
+- Frontend: [http://13.222.50.158](http://13.222.50.158)
+- Admin Panel: [http://13.222.50.158/admin/](http://13.222.50.158/admin/)
+
+🛂 Login Credentials:
+- Username: `superadmin`
+- Password: `superadmin123`
+
+> ✅ No setup needed. Just open the link in your browser.
+
+
+### 🙋‍♀️ Author / Acknowledgments
 **Livekha Gunasekar**  
 Full-stack Developer | [LinkedIn](https://www.linkedin.com/in/livekha-gunasekar/)
 
-## 🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 - Special thanks to the Artiselite team for the opportunity. 
 
