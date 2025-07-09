@@ -1,8 +1,8 @@
-
 services:
   backend:
     build: ./wms-app
     container_name: wms-backend
+    restart: always
     command: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - ./wms-app:/app
@@ -16,6 +16,7 @@ services:
   db:
     image: postgres:15
     container_name: wms-db
+    restart: always
     environment:
       POSTGRES_DB: wmsdb
       POSTGRES_USER: wmsuser
@@ -26,6 +27,7 @@ services:
   nginx:
     image: nginx:latest
     container_name: wms-nginx
+    restart: always
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
       - ./wms-frontend/dist:/usr/share/nginx/html:ro
