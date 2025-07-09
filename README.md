@@ -96,7 +96,7 @@ This command will:
 You can view the deployed application here:
 
 - Frontend: [http://13.222.50.158](http://13.222.50.158)
-- Admin Panel: [http://13.222.50.158/admin/](http://13.222.50.158/admin/)
+- Admin Panel: [http://13.222.50.158/admin/]([http://13.222.50.158/admin/](http://13.222.50.158/admin/login/?next=/admin/))
 
 🛂 Login Credentials:
 - Username: `superadmin`
